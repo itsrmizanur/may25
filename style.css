@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px 50px;
+}
+.hover-cards {
+    margin: 20px 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 80px 0 20px 0;
+}
+.text h3{
+    font-size: 56px;
+}
+.text p{
+    font-size: 24px;
+}
+.img {
+    height: 200px;
+}
+.img img{
+    height: 100%;
+}
+.card .img,
+.card p,
+.card span {
+    display: none;
+}
+
+/* common style for card-1, card-2 .... start  */
+.card-1:hover {
+    padding: 0px 0;
+}
+/* this is for card bellow the hovered card  */
+.card-1:hover + .card-2{
+    padding-top: 45px;
+}
+.card-1:hover .img,
+.card-1:hover p{
+    display: block;
+}
+.card-1:hover span {
+    display: inline;
+}
+/* common style for card-1, card-2 .... end  */
+
+/* common style for card-1, card-2 .... start  */
+.card-2:hover {
+    padding: 0px 0;
+}
+/* this is for card bellow the hovered card  */
+.card-2:hover + .card-3{
+    padding-top: 45px;
+}
+.card-2:hover .img,
+.card-2:hover p{
+    display: block;
+}
+.card-2:hover span {
+    display: inline;
+}
+/* common style for card-1, card-2 .... end  */
+
+/* common style for card-1, card-2 .... start  */
+.card-3:hover {
+    padding: 0px 0;
+}
+/* this is for card bellow the hovered card  */
+.card-3:hover + .card-4{
+    padding-top: 45px;
+}
+.card-3:hover .img,
+.card-3:hover p{
+    display: block;
+}
+.card-3:hover span {
+    display: inline;
+}
+/* common style for card-1, card-2 .... end  */
+
+
